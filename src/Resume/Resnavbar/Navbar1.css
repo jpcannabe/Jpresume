@@ -1,0 +1,56 @@
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items:center ;
+    justify-content:space-between;
+    color: white;
+    
+}
+
+.logo-div{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navart{
+    height: 100px;
+    width: 60%;
+    display: flex ;
+    justify-content: space-around ;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+
+}
+
+#logo{
+    font-size: 80px;
+    background: -webkit-linear-gradient(rgba(255, 0, 0, 0.703),#3b3939,#fff,rgb(0, 102, 255),rgb(107, 180, 107),rgb(111, 83, 29),purple,pink,olive);
+    background-position: 100%;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icons{
+    font-size: 30px;
+    justify-content:center;
+    width: 20%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+@media screen and (max-width:550px) {
+    .navbar{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+}
